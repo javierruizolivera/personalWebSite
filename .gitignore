@@ -1,1 +1,39 @@
-.idea/*
+# General Gitignore file for front-end proyects
+# **********************************************
+# Javier Ruiz
+# Last update: June 30, 2015
+# 
+# Based on https://github.com/github/gitignore
+
+
+# Your ignore rules
+# *****************
+
+
+# SASS
+# *****************
+.sass-cache/
+.sass-cache/*
+*.css.map
+
+
+# Frameworks
+# *****************
+.idea/
+*.sublime-workspace
+*.sublime-project
+node_modules
+
+
+# OS X cache files
+# *****************
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+
+
+# Windows image file caches
+# *****************
+Thumbs.db
+ehthumbs.db
